@@ -76,10 +76,9 @@ function main() {
     then = now;
 
     drawScene(gl, programInfo, buffers, deltaTime);
-
-    requestAnimationFrame(render);
+    window.requestAnimationFrame(render);
   }
-  requestAnimationFrame(render);
+  window.requestAnimationFrame(render);
 }
 
 //
